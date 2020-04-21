@@ -34,13 +34,13 @@
                 <p class="label-text">名字
                   <span class="reference-mark">※</span>
                 </p>
-                <input type="text" class="input-init input-area" required>
+                <input type="text" name="last-name" class="input-init input-area" required>
               </div>
               <div class="name-common halfwidth-common">
                 <p class="label-text">名前
                   <span class="reference-mark">※</span>
                 </p>
-                <input type="text" class="input-init input-area" required>
+                <input type="text" name="first-name" class="input-init input-area" required>
               </div>
             </div>
             
@@ -78,26 +78,26 @@
               <p class="label-text">Eメール
                 <span class="reference-mark">※</span>
               </p>
-              <input type="email" class="fullwidth-common input-area input-init" placeholder="ex) hoge@example.com" required>
+              <input type="email" name="email" class="fullwidth-common input-area input-init" placeholder="ex) hoge@example.com" required>
             </div>
 
             <div class="line number-box">
               <p class="label-text">電話番号</p>
-              <input type="tel" class="fullwidth-common input-area input-init" placeholder="ex) 09012345678">
+              <input type="tel" name="tel" class="fullwidth-common input-area input-init" placeholder="ex) 09012345678">
             </div>
 
             <div class="line password-box">
               <p class="label-text">パスワード
                 <span class="reference-mark">※</span>
               </p>
-              <input type="password" class="fullwidth-common input-area input-init" required>
+              <input type="password" name="password" class="fullwidth-common input-area input-init" required>
             </div>
 
             <div class="line password-box">
               <p class="label-text">パスワード(確認用)
                 <span class="reference-mark">※</span>
               </p>
-              <input type="password" class="fullwidth-common input-area input-init" required>
+              <input type="password" name="reenter-password" class="fullwidth-common input-area input-init" required>
             </div>
 
             <div class="line course-box">
@@ -118,11 +118,11 @@
 
             <div class="line remarks-box">
               <p class="label-text">備考</p>
-              <textarea name="" id="" cols="30" rows="10" class="fullwidth-common input-area input-init" placeholder="何かあればご記入ください"></textarea>
+              <textarea name="remarks" id="remarks" cols="30" rows="10" class="fullwidth-common input-area input-init" placeholder="何かあればご記入ください"></textarea>
             </div>
 
             <div class="line create-button-box">
-              <input type="submit" value="アカウント作成" class="input-init button-animation fullwidth-common submit-button">
+              <input type="submit" name="submit" value="アカウント作成" class="input-init button-animation fullwidth-common submit-button">
             </div>
 
             <p class="contract-box">アカウントを作成することにより、<a href="" class="link-color">利用規約</a>と<a href="" class="link-color">プライバシーポリシー</a>に同意するものとします。
